@@ -2,6 +2,14 @@
 
 > #### [highlight.js](https://github.com/highlightjs/highlight.js) syntax definitions for [Motoko](https://internetcomputer.org/docs/current/motoko/main/about-this-guide) and related languages.
 
+---
+
+## Installation
+
+```bash
+npm i --save highlightjs-motoko
+```
+
 ## Basic Usage
 
 ```js
