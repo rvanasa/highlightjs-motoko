@@ -33,7 +33,7 @@ function hljsDefineCandid(hljs) {
 
     return {
         name: 'Candid',
-        aliases: ['did'],
+        aliases: ['candid', 'did'],
         keywords: {
             $pattern: '[a-zA-Z_]\\w*',
             keyword: 'import service type',

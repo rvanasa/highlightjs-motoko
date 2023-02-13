@@ -90,7 +90,7 @@ function hljsDefineMotoko(hljs) {
             },
         ],
     };
-    
+
     const number = {
         className: 'number',
         variants: [
@@ -106,7 +106,7 @@ function hljsDefineMotoko(hljs) {
 
     return {
         name: 'Motoko',
-        aliases: ['mo'],
+        aliases: ['motoko', 'mo'],
         keywords: {
             $pattern: '[a-zA-Z_]\\w*',
             keyword: keywords
