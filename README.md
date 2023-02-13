@@ -14,8 +14,6 @@ hljs.initHighlightingOnLoad();
 
 ## Advanced Usage
 
-### 
-
 ```js
 const hljs = require('highlightjs');
 const { motoko, candid } = require('highlightjs-motoko');
