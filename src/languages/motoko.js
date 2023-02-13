@@ -79,6 +79,8 @@ function hljsDefineMotoko(hljs) {
         'Principal',
     ];
 
+    const literalKeywords = ['true', 'false', 'null'];
+
     const string = {
         className: 'string',
         variants: [
