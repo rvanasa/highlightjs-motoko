@@ -1,6 +1,6 @@
 # `highlightjs-motoko`
 
-> #### [highlight.js](https://github.com/highlightjs/highlight.js) syntax definitions for Motoko and related languages.
+> #### [highlight.js](https://github.com/highlightjs/highlight.js) syntax definitions for [Motoko](https://internetcomputer.org/docs/current/motoko/main/about-this-guide) and related languages.
 
 ## Basic Usage
 
