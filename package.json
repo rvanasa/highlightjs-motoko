@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "git submodule update --init --recursive && npm run link && cd submodules/highlight.js && npm ci",
+    "postinstall": "git submodule update --init && npm run link && cd submodules/highlight.js && npm ci",
     "link": "rm -f submodules/highlight.js/extra/motoko && ln -s $(pwd) submodules/highlight.js/extra/motoko",
     "test": "cd submodules/highlight.js/ && npm run build && npm test",
     "build": "cd submodules/highlight.js/ && node ./tools/build.js -t cdn"
