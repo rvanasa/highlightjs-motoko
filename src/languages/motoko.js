@@ -76,7 +76,7 @@ function hljsDefineMotoko(hljs) {
         'Text',
         'Blob',
         'Error',
-        'Principal____',
+        'Principal',
     ];
 
     const literalKeywords = ['true', 'false', 'null'];
