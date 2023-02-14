@@ -6,10 +6,10 @@
   "license": "Apache-2.0",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "git submodule update --remote && cd submodules/highlight.js && npm ci",
+    "postinstall": "git submodule update --remote && npm run link && cd submodules/highlight.js && npm ci",
     "link": "rm -f submodules/highlight.js/extra/motoko && ln -s $(pwd) submodules/highlight.js/extra/motoko",
-    "test": "npm run link && cd submodules/highlight.js/ && npm run build && npm test",
-    "build": "cd submodules/highlight.js && node ./tools/build.js -t cdn"
+    "test": "cd submodules/highlight.js/ && npm run build && npm test",
+    "build": "cd submodules/highlight.js/ && node ./tools/build.js -t cdn"
   },
   "files": [
     "dist",
