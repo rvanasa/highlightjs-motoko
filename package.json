@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-motoko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "highlight.js syntax definition for the Motoko programming language",
   "author": "DFINITY Foundation",
   "license": "Apache-2.0",
