@@ -17,7 +17,7 @@ const hljs = require('highlightjs');
 const defineMotoko = require('highlightjs-motoko');
 
 defineMotoko(hljs);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 ## Advanced Usage
@@ -30,5 +30,5 @@ const { motoko, candid } = require('highlightjs-motoko');
 hljs.registerLanguage('motoko', motoko);
 hljs.registerLanguage('candid', candid);
 
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
