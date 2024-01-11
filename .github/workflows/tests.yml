@@ -27,6 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+    - run: npm run setup
     - run: npm run build
     - name: Validate `dist` directory
       run: git diff --exit-code || exit "Please run 'npm build' to update the 'dist' directory"
