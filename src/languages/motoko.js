@@ -22,6 +22,7 @@ function hljsDefineMotoko(hljs) {
         'do',
         'else',
         'false',
+        'finally',
         'flexible',
         'for',
         'from_candid',
