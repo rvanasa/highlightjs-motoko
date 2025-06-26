@@ -2,7 +2,7 @@
 var hljsGrammar=(()=>{"use strict";return e=>{const a=["true","false","null"]
 ;return{name:"Motoko",aliases:["motoko","mo"],keywords:{
 $pattern:"[a-zA-Z_]\\w*",
-keyword:["actor","and","async","assert","await","break","case","catch","class","continue","debug","debug_show","do","else","false","finally","flexible","for","from_candid","func","if","ignore","in","import","label","let","loop","module","not","null","object","or","private","public","query","return","shared","stable","switch","system","throw","to_candid","true","try","type","var","while","with"].filter((e=>!a.includes(e)&&"async"!==e)).join(" "),
+keyword:["actor","and","async","assert","await","break","case","catch","class","continue","debug","debug_show","do","else","false","finally","flexible","for","from_candid","func","if","ignore","in","import","label","let","loop","module","not","null","object","or","persistent","private","public","query","return","shared","stable","switch","system","throw","to_candid","transient","true","try","type","var","while","with"].filter((e=>!a.includes(e)&&"async"!==e)).join(" "),
 literal:a.join(" "),
 built_in:"async Any None Null Bool Int Int8 Int16 Int32 Int64 Nat Nat8 Nat16 Nat32 Nat64 Float Char Text Blob Error Principal"
 },illegal:"</",contains:[e.C_LINE_COMMENT_MODE,e.COMMENT("/\\*","\\*/",{
